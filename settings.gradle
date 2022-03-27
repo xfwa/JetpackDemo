@@ -1,0 +1,22 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+rootProject.name = "JetpackDemo"
+include ':app'
+include ':livedata'
+include ':viewmodel'
+include ':databinding'
+include ':romm'
+include ':navigation'
+include ':paging3'

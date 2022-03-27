@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginStart="10dp"
+    android:layout_marginEnd="10dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btn_add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="增加数据库数据" />
+
+
+    <Button
+        android:id="@+id/btn_delete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="删除数据库数据" />
+
+
+    <Button
+        android:id="@+id/btn_update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="修改数据库数据" />
+
+
+    <Button
+        android:id="@+id/btn_update_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="只修改用户名字" />
+
+    <Button
+        android:id="@+id/btn_query_all"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="查询所有数据库数据" />
+
+    <Button
+        android:id="@+id/btn_add_student_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="增加student数据" />
+
+
+    <Button
+        android:id="@+id/btn_query_student_all_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="查询student所有数据" />
+
+
+</LinearLayout>
